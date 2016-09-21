@@ -1,6 +1,6 @@
 set -e
 
-REPO_NAME=github.com/concourse/atc
+REPO_NAME=github.com/docurated/atc
 
 export GOROOT=$(readlink -nf /var/vcap/packages/golang)
 export GOPATH=$BOSH_INSTALL_TARGET
@@ -12,6 +12,6 @@ cp -a * ${BOSH_INSTALL_TARGET}/src
 VERSION_FILE=/var/vcap/packages/concourse_version/version
 
 go build \
-  -ldflags "-X github.com/concourse/atc/atccmd.Version=$(cat $VERSION_FILE)" \
+  -ldflags "-X github.com/docurated/atc/atccmd.Version=$(cat $VERSION_FILE)" \
   -o ${BOSH_INSTALL_TARGET}/bin/atc \
   ${REPO_NAME}/cmd/atc

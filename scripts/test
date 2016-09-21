@@ -6,7 +6,7 @@ concourse_dir=$(realpath $(dirname $(dirname $0)))
 cd "$concourse_dir"
 
 echo "Testing ATC"
-./src/github.com/concourse/atc/scripts/test
+./src/github.com/docurated/atc/scripts/test
 echo "Testing Baggageclaim"
 ./src/github.com/concourse/baggageclaim/scripts/test
 echo "Testing Blackbox"

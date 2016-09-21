@@ -6,7 +6,7 @@ set -e -x
 export GOPATH=$PWD/concourse
 export PATH=$GOPATH/bin:$PATH
 
-pushd ${GOPATH}/src/github.com/concourse/atc
+pushd ${GOPATH}/src/github.com/docurated/atc
   go install github.com/onsi/ginkgo/ginkgo
   xvfb-run ginkgo -r -p -race "$@"
 popd

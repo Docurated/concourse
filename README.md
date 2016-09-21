@@ -23,7 +23,7 @@ GitHub issues.
 
 Each component has its own repository:
 
-* [ATC](https://github.com/concourse/atc) is most of Concourse: it provides
+* [ATC](https://github.com/docurated/atc) is most of Concourse: it provides
   the API, web UI, and all pipeline orchestration
 * [Fly](https://github.com/concourse/fly) is the CLI for interacting with and
   configuring Concourse pipelines

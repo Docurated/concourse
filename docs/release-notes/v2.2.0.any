@@ -4,7 +4,7 @@
 
 \release{2016-09-15}{2.2.0}{0.8.0}{
   \note{feature}{
-    \hyperlink{https://github.com/concourse/atc/tree/master/db/algorithm}{The
+    \hyperlink{https://github.com/docurated/atc/tree/master/db/algorithm}{The
     Algorithm} has become much faster. The Algorithm is what computes the
     candidate set of inputs for a job, and is the second hardest problem in
     Concourse (behind the pipeline UI).

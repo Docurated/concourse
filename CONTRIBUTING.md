@@ -31,7 +31,7 @@ will make your time working on Concourse drastically easier.
 
 # ATC-only development
 
-In some cases, you can achieve a more lightweight development cycle by running the ATC outside of a full concourse deployment. For more details, see the [concourse/atc CONTRIBUTING.md](https://github.com/concourse/atc/blob/master/CONTRIBUTING.md). Come back to these instructions to test your changes in a full deployment before submitting a pull request.
+In some cases, you can achieve a more lightweight development cycle by running the ATC outside of a full concourse deployment. For more details, see the [concourse/atc CONTRIBUTING.md](https://github.com/docurated/atc/blob/master/CONTRIBUTING.md). Come back to these instructions to test your changes in a full deployment before submitting a pull request.
 
 # Setup
 
@@ -141,7 +141,7 @@ from the top-level ATC directory
 #### Building ATC Javascript
 
 ```
-cd src/github.com/concourse/atc/web
+cd src/github.com/docurated/atc/web
 npm install
 env PATH=$(npm bin):$PATH make
 ```

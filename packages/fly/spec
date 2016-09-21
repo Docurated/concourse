@@ -9,9 +9,9 @@ files:
   - fly_binaries/*
   - github.com/aryann/difflib/*.go # gosub
   - github.com/bmizerany/pat/*.go # gosub
-  - github.com/concourse/atc/*.go # gosub
-  - github.com/concourse/atc/event/*.go # gosub
-  - github.com/concourse/atc/web/*.go # gosub
+  - github.com/docurated/atc/*.go # gosub
+  - github.com/docurated/atc/event/*.go # gosub
+  - github.com/docurated/atc/web/*.go # gosub
   - github.com/concourse/fly/*.go # gosub
   - github.com/concourse/fly/commands/*.go # gosub
   - github.com/concourse/fly/commands/internal/displayhelpers/*.go # gosub

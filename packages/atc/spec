@@ -6,8 +6,8 @@ dependencies:
   - concourse_version
 
 files:
-  - github.com/concourse/atc/web/templates/**/*
-  - github.com/concourse/atc/web/public/**/*
+  - github.com/docurated/atc/web/templates/**/*
+  - github.com/docurated/atc/web/public/**/*
   - code.cloudfoundry.org/clock/*.go # gosub
   - code.cloudfoundry.org/garden/*.go # gosub
   - code.cloudfoundry.org/garden/client/*.go # gosub
@@ -21,72 +21,72 @@ files:
   - github.com/bigdatadev/goryman/*.go # gosub
   - github.com/bigdatadev/goryman/proto/*.go # gosub
   - github.com/bmizerany/pat/*.go # gosub
-  - github.com/concourse/atc/*.go # gosub
-  - github.com/concourse/atc/api/*.go # gosub
-  - github.com/concourse/atc/api/authserver/*.go # gosub
-  - github.com/concourse/atc/api/buildserver/*.go # gosub
-  - github.com/concourse/atc/api/cliserver/*.go # gosub
-  - github.com/concourse/atc/api/configserver/*.go # gosub
-  - github.com/concourse/atc/api/containerserver/*.go # gosub
-  - github.com/concourse/atc/api/infoserver/*.go # gosub
-  - github.com/concourse/atc/api/jobserver/*.go # gosub
-  - github.com/concourse/atc/api/loglevelserver/*.go # gosub
-  - github.com/concourse/atc/api/pipelineserver/*.go # gosub
-  - github.com/concourse/atc/api/pipes/*.go # gosub
-  - github.com/concourse/atc/api/present/*.go # gosub
-  - github.com/concourse/atc/api/resourceserver/*.go # gosub
-  - github.com/concourse/atc/api/resourceserver/versionserver/*.go # gosub
-  - github.com/concourse/atc/api/teamserver/*.go # gosub
-  - github.com/concourse/atc/api/volumeserver/*.go # gosub
-  - github.com/concourse/atc/api/workerserver/*.go # gosub
-  - github.com/concourse/atc/atccmd/*.go # gosub
-  - github.com/concourse/atc/auth/*.go # gosub
-  - github.com/concourse/atc/auth/genericoauth/*.go # gosub
-  - github.com/concourse/atc/auth/github/*.go # gosub
-  - github.com/concourse/atc/auth/provider/*.go # gosub
-  - github.com/concourse/atc/auth/uaa/*.go # gosub
-  - github.com/concourse/atc/auth/verifier/*.go # gosub
-  - github.com/concourse/atc/builds/*.go # gosub
-  - github.com/concourse/atc/cmd/atc/*.go # gosub
-  - github.com/concourse/atc/config/*.go # gosub
-  - github.com/concourse/atc/db/*.go # gosub
-  - github.com/concourse/atc/db/algorithm/*.go # gosub
-  - github.com/concourse/atc/db/migrations/*.go # gosub
-  - github.com/concourse/atc/engine/*.go # gosub
-  - github.com/concourse/atc/event/*.go # gosub
-  - github.com/concourse/atc/exec/*.go # gosub
-  - github.com/concourse/atc/gc/buildreaper/*.go # gosub
-  - github.com/concourse/atc/gc/containerkeepaliver/*.go # gosub
-  - github.com/concourse/atc/gc/dbgc/*.go # gosub
-  - github.com/concourse/atc/gc/lostandfound/*.go # gosub
-  - github.com/concourse/atc/lockrunner/*.go # gosub
-  - github.com/concourse/atc/mainredirect/*.go # gosub
-  - github.com/concourse/atc/metric/*.go # gosub
-  - github.com/concourse/atc/pipelines/*.go # gosub
-  - github.com/concourse/atc/radar/*.go # gosub
-  - github.com/concourse/atc/resource/*.go # gosub
-  - github.com/concourse/atc/scheduler/*.go # gosub
-  - github.com/concourse/atc/scheduler/buildstarter/*.go # gosub
-  - github.com/concourse/atc/scheduler/buildstarter/maxinflight/*.go # gosub
-  - github.com/concourse/atc/scheduler/factory/*.go # gosub
-  - github.com/concourse/atc/scheduler/inputmapper/*.go # gosub
-  - github.com/concourse/atc/scheduler/inputmapper/inputconfig/*.go # gosub
-  - github.com/concourse/atc/web/*.go # gosub
-  - github.com/concourse/atc/web/authredirect/*.go # gosub
-  - github.com/concourse/atc/web/getbuild/*.go # gosub
-  - github.com/concourse/atc/web/getbuilds/*.go # gosub
-  - github.com/concourse/atc/web/getjob/*.go # gosub
-  - github.com/concourse/atc/web/getjoblessbuild/*.go # gosub
-  - github.com/concourse/atc/web/getresource/*.go # gosub
-  - github.com/concourse/atc/web/index/*.go # gosub
-  - github.com/concourse/atc/web/login/*.go # gosub
-  - github.com/concourse/atc/web/pipeline/*.go # gosub
-  - github.com/concourse/atc/web/robotstxt/*.go # gosub
-  - github.com/concourse/atc/web/webhandler/*.go # gosub
-  - github.com/concourse/atc/worker/*.go # gosub
-  - github.com/concourse/atc/worker/image/*.go # gosub
-  - github.com/concourse/atc/worker/transport/*.go # gosub
-  - github.com/concourse/atc/wrappa/*.go # gosub
+  - github.com/docurated/atc/*.go # gosub
+  - github.com/docurated/atc/api/*.go # gosub
+  - github.com/docurated/atc/api/authserver/*.go # gosub
+  - github.com/docurated/atc/api/buildserver/*.go # gosub
+  - github.com/docurated/atc/api/cliserver/*.go # gosub
+  - github.com/docurated/atc/api/configserver/*.go # gosub
+  - github.com/docurated/atc/api/containerserver/*.go # gosub
+  - github.com/docurated/atc/api/infoserver/*.go # gosub
+  - github.com/docurated/atc/api/jobserver/*.go # gosub
+  - github.com/docurated/atc/api/loglevelserver/*.go # gosub
+  - github.com/docurated/atc/api/pipelineserver/*.go # gosub
+  - github.com/docurated/atc/api/pipes/*.go # gosub
+  - github.com/docurated/atc/api/present/*.go # gosub
+  - github.com/docurated/atc/api/resourceserver/*.go # gosub
+  - github.com/docurated/atc/api/resourceserver/versionserver/*.go # gosub
+  - github.com/docurated/atc/api/teamserver/*.go # gosub
+  - github.com/docurated/atc/api/volumeserver/*.go # gosub
+  - github.com/docurated/atc/api/workerserver/*.go # gosub
+  - github.com/docurated/atc/atccmd/*.go # gosub
+  - github.com/docurated/atc/auth/*.go # gosub
+  - github.com/docurated/atc/auth/genericoauth/*.go # gosub
+  - github.com/docurated/atc/auth/github/*.go # gosub
+  - github.com/docurated/atc/auth/provider/*.go # gosub
+  - github.com/docurated/atc/auth/uaa/*.go # gosub
+  - github.com/docurated/atc/auth/verifier/*.go # gosub
+  - github.com/docurated/atc/builds/*.go # gosub
+  - github.com/docurated/atc/cmd/atc/*.go # gosub
+  - github.com/docurated/atc/config/*.go # gosub
+  - github.com/docurated/atc/db/*.go # gosub
+  - github.com/docurated/atc/db/algorithm/*.go # gosub
+  - github.com/docurated/atc/db/migrations/*.go # gosub
+  - github.com/docurated/atc/engine/*.go # gosub
+  - github.com/docurated/atc/event/*.go # gosub
+  - github.com/docurated/atc/exec/*.go # gosub
+  - github.com/docurated/atc/gc/buildreaper/*.go # gosub
+  - github.com/docurated/atc/gc/containerkeepaliver/*.go # gosub
+  - github.com/docurated/atc/gc/dbgc/*.go # gosub
+  - github.com/docurated/atc/gc/lostandfound/*.go # gosub
+  - github.com/docurated/atc/lockrunner/*.go # gosub
+  - github.com/docurated/atc/mainredirect/*.go # gosub
+  - github.com/docurated/atc/metric/*.go # gosub
+  - github.com/docurated/atc/pipelines/*.go # gosub
+  - github.com/docurated/atc/radar/*.go # gosub
+  - github.com/docurated/atc/resource/*.go # gosub
+  - github.com/docurated/atc/scheduler/*.go # gosub
+  - github.com/docurated/atc/scheduler/buildstarter/*.go # gosub
+  - github.com/docurated/atc/scheduler/buildstarter/maxinflight/*.go # gosub
+  - github.com/docurated/atc/scheduler/factory/*.go # gosub
+  - github.com/docurated/atc/scheduler/inputmapper/*.go # gosub
+  - github.com/docurated/atc/scheduler/inputmapper/inputconfig/*.go # gosub
+  - github.com/docurated/atc/web/*.go # gosub
+  - github.com/docurated/atc/web/authredirect/*.go # gosub
+  - github.com/docurated/atc/web/getbuild/*.go # gosub
+  - github.com/docurated/atc/web/getbuilds/*.go # gosub
+  - github.com/docurated/atc/web/getjob/*.go # gosub
+  - github.com/docurated/atc/web/getjoblessbuild/*.go # gosub
+  - github.com/docurated/atc/web/getresource/*.go # gosub
+  - github.com/docurated/atc/web/index/*.go # gosub
+  - github.com/docurated/atc/web/login/*.go # gosub
+  - github.com/docurated/atc/web/pipeline/*.go # gosub
+  - github.com/docurated/atc/web/robotstxt/*.go # gosub
+  - github.com/docurated/atc/web/webhandler/*.go # gosub
+  - github.com/docurated/atc/worker/*.go # gosub
+  - github.com/docurated/atc/worker/image/*.go # gosub
+  - github.com/docurated/atc/worker/transport/*.go # gosub
+  - github.com/docurated/atc/wrappa/*.go # gosub
   - github.com/concourse/baggageclaim/*.go # gosub
   - github.com/concourse/baggageclaim/api/*.go # gosub
   - github.com/concourse/baggageclaim/client/*.go # gosub

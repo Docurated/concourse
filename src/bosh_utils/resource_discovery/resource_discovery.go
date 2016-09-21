@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/concourse/atc"
+	"github.com/docurated/atc"
 )
 
 func main() {

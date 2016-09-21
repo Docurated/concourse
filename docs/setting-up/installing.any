@@ -124,7 +124,7 @@ a tool that meshes well with Concourse's ideals, buckle up and head over to
 
   \section{Starting the Web UI & Scheduler}{
     The \code{concourse} binary embeds the
-    \hyperlink{https://github.com/concourse/atc}{ATC} and
+    \hyperlink{https://github.com/docurated/atc}{ATC} and
     \hyperlink{https://github.com/concourse/tsa}{TSA} components, available as
     the \code{web} subcommand.
 

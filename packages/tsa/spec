@@ -15,7 +15,7 @@ files:
   - code.cloudfoundry.org/garden/transport/*.go # gosub
   - code.cloudfoundry.org/lager/*.go # gosub
   - github.com/bmizerany/pat/*.go # gosub
-  - github.com/concourse/atc/*.go # gosub
+  - github.com/docurated/atc/*.go # gosub
   - github.com/concourse/tsa/*.go # gosub
   - github.com/concourse/tsa/cmd/tsa/*.go # gosub
   - github.com/concourse/tsa/tsacmd/*.go # gosub
